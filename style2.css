@@ -1,8 +1,4 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 @font-face{
     font-family: flowers;
@@ -10,23 +6,25 @@
 }
 
 body {
-    background-color: #f9eef4;
+    background-image: url(./Imagenes/background\ propio.png);
     font-family: flowers;
+    background-size: contain;
 }
 
-nav {
-    width: 100%;
+.nav{
     display: flex;
+    background-color: #ebdde6;
+}
+
+.nav > div{
     justify-content: space-evenly;
-    padding: 3%;
-    background-color: #efdfef;
-    
+    text-align: center;
     
 }
 
-a{
-    text-decoration: none;
+.nav > div > a{
     color: black;
+    text-decoration: none;
     font-size: 44px;
 }
 
@@ -39,26 +37,33 @@ a{
     flex-direction: column;
     align-items: center;
     margin-top: 58px;
-    margin-left: 200px;
-
+    
+    font-size: 50px;
+    text-align: center;
+    margin-right: 7%;
 }
 
-
+.cont-home > h2{
+    font-size: 90px;
+    font-weight: 800;
+}
 .cont-presen-home{
     display: flex;
     align-items: center;
     margin-top: 15%;
 }
 
+.presentacion-home > h1{
+    font-size: 50px;
+    font-weight: 900;
+}
 
-.imagen-home{
+.cont-presen-home > img{
     width: 250px;
     height: 250px;
     border-radius: 50%;
     margin-right: 11%;
 }
-
-
 .cont-about{
     background-color: #d1bae7;
     width: 600px;
@@ -67,22 +72,28 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 39%;
+    
 }
 
+.cont-about > h2{
+    font-size: 90px;
+    font-weight: 800;
+}
 
 .presentacion-about h3{
     font-size: 40px;
     text-align: center;
+    
+}
+
+.nombre{
+    font-weight: 900;
 }
 
 .texto-about{
    text-align: center; 
    width: 80%;
-}
-
-.texto-about p{
-    font-size: 31px; 
+   font-size: 29px; 
 }
 
 .conte-skills{
@@ -92,10 +103,63 @@ a{
     border-radius: 315px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 200px;
+    
 }
 
+.conte-skills > h2{
+    font-size: 90px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.html{
+    padding-left: 134px;
+    padding-top: 55px;
+
+}
+.html>img{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    margin-top: 17px;
+}
+
+.html>p{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.css{
+    padding-left: 134px;
+}
+
+.css>img{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    margin-top: 17px;
+}
+
+.css>p{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.boostrap{
+    padding-left: 134px;
+}
+
+.boostrap>p{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.boostrap>img{
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    margin-top: 17px;
+}
 
 .cont-education{
     background-color: #ebc8d9;
@@ -105,22 +169,35 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 39%;
 }
 
 
+.cont-education > h2{
+    font-size: 85px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
 .info1-education{
-    margin-top: 15%;
+    margin-top: 1%;
     font-size: 30px;
-    width: 54%;
+    width: 66%;
     display: flex;
+}
+
+.parrafos1-education> p{
+    margin-bottom: 0;
 }
 
 .info2-education{
-    margin-top: 7%;
+    margin-top: 8%;
     font-size: 30px;
-    width: 54%;
+    width: 66%;
     display: flex;
+}
+
+.parrafos2-education> p{
+    margin-bottom: 0;
 }
 
 .img-flor{
@@ -137,16 +214,27 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 200px;
+    
 }
 
-.titulo{
+.cont-contact > h2{
     margin-top: 4%;
-    font-size: 60px;
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.logos{
+    padding-left: 12%;
+    padding-top: 20%;
+}
+
+.logos > a > img{
+    width: 48%;
+    margin-left: 5%;
 }
 
 footer{
-    background-color: #efdfef;
+    background-color: #ebdde6;
     display: flex;
     justify-content: space-evenly;
     margin-top: 58px;
@@ -159,5 +247,4 @@ footer{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-
 }
