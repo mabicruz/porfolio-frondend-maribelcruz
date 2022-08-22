@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: flowers;
+    src: url(./assets/Moon\ Flower.ttf);
+}
+
+body {
+    background-color: #f9eef4;
+    font-family: flowers;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+    background-color: #efdfef;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 44px;
+}
+
+.cont-home{
+    background-color: #d0f5e8;
+    width: 600px;
+    height: 600px;
+    border-radius: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 58px;
+    margin-left: 200px;
+
+}
+
+
+.cont-presen-home{
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+}
+
+
+.imagen-home{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 11%;
+}
+
+
+.cont-about{
+    background-color: #d1bae7;
+    width: 600px;
+    height: 600px;
+    border-radius: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 39%;
+}
+
+
+.presentacion-about h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+.texto-about{
+   text-align: center; 
+   width: 80%;
+}
+
+.texto-about p{
+    font-size: 31px; 
+}
+
+.conte-skills{
+    background-color: #d3e0f5;
+    width: 600px;
+    height: 600px;
+    border-radius: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+}
+
+
+.cont-education{
+    background-color: #ebc8d9;
+    width: 600px;
+    height: 600px;
+    border-radius: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 39%;
+}
+
+
+.info1-education{
+    margin-top: 15%;
+    font-size: 30px;
+    width: 54%;
+    display: flex;
+}
+
+.info2-education{
+    margin-top: 7%;
+    font-size: 30px;
+    width: 54%;
+    display: flex;
+}
+
+.img-flor{
+    margin-right: 10%;
+    height: 35px; 
+    width: 35px;
+}
+
+.cont-contact{
+    background-color: #f1f1c8;
+    width: 600px;
+    height: 600px;
+    border-radius: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.titulo{
+    margin-top: 4%;
+    font-size: 60px;
+}
+
+footer{
+    background-color: #efdfef;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 58px;
+    height: 70px;
+    align-items: center;
+}
+
+.cont-footer{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
