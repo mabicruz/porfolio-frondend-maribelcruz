@@ -11,22 +11,33 @@ body {
     background-size: contain;
 }
 
-.nav{
-    display: flex;
+.navbar{
     background-color: #ebdde6;
 }
 
-.nav > div{
-    justify-content: space-evenly;
-    text-align: center;
+.navbar-brand > img {
+    width: 35px;
+    height: 35px;
     
 }
 
-.nav > div > a{
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-nav > li > a {
     color: black;
-    text-decoration: none;
     font-size: 44px;
 }
+
+
+.container-fluid{
+    padding-left: 38px;
+}
+
 
 .cont-home{
     background-color: #d0f5e8;
@@ -36,8 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 58px;
-    
+    margin-top: 20%;
     font-size: 50px;
     text-align: center;
     margin-right: 7%;
